@@ -1,0 +1,126 @@
+a, h1, h2, h3, div, body, html, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+p {
+    margin: 10px 20px 10px 30px;
+}
+body {
+    background-color: rgb(252, 246, 235);
+}
+
+div {
+    margin: 0 auto;
+}
+
+#header  {
+    background-color: orange;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    height: 30px;
+    margin: 10px;
+}
+
+#header span   {
+    margin: 5px 10px;
+    padding-left: 10px;
+    float: left;
+
+}
+
+#header a {
+    text-decoration: none;
+    float: right;
+    margin: 5px 10px;
+    padding-right: 10px;
+    color: white;
+
+
+}
+#Container {
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.Dashboard {
+    width: 250px;
+    height: 430px;
+    font-size: 13px;
+    float:left;
+    margin: 15px;
+    display:inline-block;
+    border: solid 3px orange;
+    background-color: white;
+}
+
+.Budget {
+    width: 250px;
+    height: 430px;
+    font-size: 13px;
+    float:left;
+    margin: 15px;
+    display:inline-block;
+    border: solid 3px orange;
+    background-color: white;
+}
+
+.Checkbooks {
+    width: 250px;
+    height: 430px;
+    font-size: 13px;
+    float:left;
+    margin: 15px;
+    display:inline-block;
+    border: solid 3px orange;
+    background-color: white;
+}
+
+.Money {
+    width: 250px;
+    height: 430px;
+    font-size: 13px;
+    float:left;
+    margin: 15px;
+    display:inline-block;
+    border: solid 3px orange;
+    background-color: white;
+}
+
+.Dashboard h2 {
+    font-size: 20px;
+    margin : 20px 10px;
+    margin-left: 22px;
+}
+
+.Budget h2 {
+    font-size: 20px;
+    margin : 20px 10px;
+    margin-left: 22px;
+}
+
+.Checkbooks h2 {
+    font-size: 20px;
+    margin : 20px 10px;
+    margin-left: 22px;
+}
+
+.Money h2 {
+    font-size: 20px;
+    margin : 20px 10px;
+    margin-left: 22px;
+}
+
+button[type=button] {
+    background-color: orange;
+    border: 1px solid orange;
+    position: relative;
+    color: white;
+    width: 230px;
+    margin: 0 auto;
+    margin-left: 10px;
+
+}
